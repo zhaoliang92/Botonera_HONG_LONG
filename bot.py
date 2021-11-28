@@ -49,7 +49,7 @@ def start(update, context):
 
 if __name__ == "__main__":
 
-    updater = Updater(token="2117756293:AAFzqkn3qzhpsestMEJVWrCygFhnhct7DAE", use_context=True)
+    updater = Updater(token="TOKEN", use_context=True)
 
     dp = updater.dispatcher
 
