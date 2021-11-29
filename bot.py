@@ -30,20 +30,23 @@ def start(update, context):
         url="https://t.me/Barrio_Chino_Cuba"
     )
 
+    button5 = InlineKeyboardButton(
+        text="Otros Servicios",
+        url="https://t.me/Adrian_Cabrales_Balsa"
+    )
+
     button3 = InlineKeyboardButton(
         text="Unete a la botonera",
         url="https://t.me/Adrian_Cabrales_Balsa"
     )
     
-    context.bot.sendMediaGroup(chat_id=update.effective_chat.id, media=[InputMediaPhoto
-        (image, caption="")])
-
+    
 # NOMBRE Y BOTONES DE LA BOTONERA
     update.message.reply_text(
         text='"INFINITE KEYPAD"',
         reply_markup=InlineKeyboardMarkup([
             [button1, button2],
-            [button4],
+            [button4, button5],
             [button3]
             ])
     )
