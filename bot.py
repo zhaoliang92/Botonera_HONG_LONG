@@ -25,17 +25,22 @@ def start(update, context):
         url="https://t.me/ConfucioUH"
     )
 
-    button4 = InlineKeyboardButton(
+    button3 = InlineKeyboardButton(
         text="🏮哈瓦那的唐人街🏮Barrio Chino de Zanja",
         url="https://t.me/Barrio_Chino_Cuba"
     )
+    
+    button4 = InlineKeyboardButton(
+        text="🏮哈瓦那的唐人街🏮Barrio Chino de Zanja",
+        url="https://t.me/bibliotecaicuh"
+    )
 
-    button5 = InlineKeyboardButton(
+    otros_servicios = InlineKeyboardButton(
         text="Otros Servicios",
         url="https://telegra.ph/Otros-servicios-11-29"
     )
 
-    button3 = InlineKeyboardButton(
+    contacto = InlineKeyboardButton(
         text="Unete a la botonera",
         url="https://t.me/Adrian_Cabrales_Balsa"
     )
@@ -46,8 +51,9 @@ def start(update, context):
         text='🏮🏮🏮🏮"HONG LONG"🏮🏮🏮🏮',
         reply_markup=InlineKeyboardMarkup([
             [button1, button2],
-            [button4, button5],
-            [button3]
+            [button3, button4],
+            [otros_servicios],
+            [contacto]
             ])
     )
 
