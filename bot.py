@@ -43,7 +43,7 @@ def start(update, context):
     
 # NOMBRE Y BOTONES DE LA BOTONERA
     update.message.reply_text(
-        text='🏮🏮🏮🏮🏮"HONG LONG"🏮🏮🏮🏮🏮',
+        text='🏮🏮🏮🏮"HONG LONG"🏮🏮🏮🏮',
         reply_markup=InlineKeyboardMarkup([
             [button1, button2],
             [button4, button5],
