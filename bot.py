@@ -47,7 +47,7 @@ def start(update, context):
     
     soporte = InlineKeyboardButton(
         text="Soporte 🛠",
-        url="https://t.me/DojoTVBot"
+        url="https://t.me/suportablebot"
     )
     
     
