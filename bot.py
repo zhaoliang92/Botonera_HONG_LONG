@@ -36,12 +36,17 @@ def start(update, context):
     )
 
     otros_servicios = InlineKeyboardButton(
-        text="Otros Servicios",
+        text="Otros Servicios 📃",
         url="https://telegra.ph/Otros-servicios-11-29"
     )
 
     contacto = InlineKeyboardButton(
-        text="Unete a la botonera",
+        text="Unete a la botonera 📥",
+        url="https://t.me/DojoTVBot"
+    )
+    
+    soporte = InlineKeyboardButton(
+        text="Soporte 🛠",
         url="https://t.me/DojoTVBot"
     )
     
@@ -53,7 +58,8 @@ def start(update, context):
             [button1, button2],
             [button3, button4],
             [otros_servicios],
-            [contacto]
+            [contacto],
+            [soporte]
             ])
     )
 
