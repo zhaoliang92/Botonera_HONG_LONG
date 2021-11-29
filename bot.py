@@ -32,12 +32,12 @@ def start(update, context):
 
     button5 = InlineKeyboardButton(
         text="Otros Servicios",
-        url="https://t.me/Adrian_Cabrales_Balsa"
+        url="https://telegra.ph/Otros-servicios-11-29"
     )
 
     button3 = InlineKeyboardButton(
         text="Unete a la botonera",
-        url="https://telegra.ph/Otros-servicios-11-29"
+        url="https://t.me/Adrian_Cabrales_Balsa"
     )
     
     
