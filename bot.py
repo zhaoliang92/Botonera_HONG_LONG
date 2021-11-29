@@ -42,7 +42,7 @@ def start(update, context):
 
     contacto = InlineKeyboardButton(
         text="Unete a la botonera",
-        url="https://t.me/Adrian_Cabrales_Balsa"
+        url="@DojoTVBot"
     )
     
     
