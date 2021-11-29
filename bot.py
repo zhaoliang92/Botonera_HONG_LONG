@@ -31,7 +31,7 @@ def start(update, context):
     )
     
     button4 = InlineKeyboardButton(
-        text="🏮哈瓦那的唐人街🏮Barrio Chino de Zanja",
+        text="Biblioteca Instituto Confucio",
         url="https://t.me/bibliotecaicuh"
     )
 
