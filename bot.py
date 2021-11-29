@@ -43,7 +43,7 @@ def start(update, context):
     
 # NOMBRE Y BOTONES DE LA BOTONERA
     update.message.reply_text(
-        text='______"INFINITE KEYPAD"______',
+        text='______   "INFINITE KEYPAD"   ______',
         reply_markup=InlineKeyboardMarkup([
             [button1, button2],
             [button4, button5],
