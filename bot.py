@@ -50,6 +50,11 @@ def start(update, context):
         url="https://t.me/suportablebot"
     )
     
+    prueba = InlineKeyboardButton(
+        text="Prueba",
+        url="https://t.me/ACB_92"
+    )
+    
     
 # NOMBRE Y BOTONES DE LA BOTONERA
     update.message.reply_text(
@@ -59,7 +64,8 @@ def start(update, context):
             [button3, button4],
             [otros_servicios],
             [contacto],
-            [soporte]
+            [soporte],
+            [prueba]
             ])
     )
 
